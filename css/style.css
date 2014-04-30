@@ -442,7 +442,7 @@ p {
 		font-family: 'Marvel', sans-serif;
 		color: black; text-decoration: none;
 		background-color: #C9E6E6;
-		padding-top:30px;
+		padding-top:0px;
 		padding-bottom:10px;
 		padding-right:50px;
 		padding-left:50px;
@@ -477,17 +477,21 @@ p {
 	}
 
 	.Column {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left:5%;
+    	margin-top: 5%;
+    	margin-bottom: 5%;
+    	margin-left:5%;
 
 	}
 
 	.aboutme {
-	margin-left:5%;
-    margin-right: 0px;
+		margin-left:0%;
+    	margin-right: 0px;
 	
 	}
+
+	#special {
+	opacity: 1 !important;
+}
 
 
 }
