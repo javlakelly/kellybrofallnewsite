@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Elastic Image Slideshow with Thumbnail Preview</title>
+        <title>Kellso</title>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
@@ -13,6 +13,9 @@
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
         <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="js/animatescroll.js"></script>
+
 
 
 		<noscript>
@@ -24,22 +27,45 @@
             <div class="header">-->
 
                 
-<!-- Slideshow nr 1-->
-<script>
-$("#hulk").click(function() {
-  $("html, body").animate({ scrollTop:0}, 500);
-});​
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.link').click(function() {
+        $("html, body").animate({ scrollTop:2500}, 900);
+    })
+    $('.link1').click(function() {
+        $("html, body").animate({ scrollTop:0}, 700);
+    })
+    $('.link2').click(function() {
+        $("html, body").animate({ scrollTop:650}, 700);
+    })
+    $('.link3').click(function() {
+        $("html, body").animate({ scrollTop:1290}, 900);
+    })
+    $('.link4').click(function() {
+        $("html, body").animate({ scrollTop:1935}, 900);
+    })
+});
 
 </script>
 
+       
+<nav id="menubar" class='navbar navbar-inverse navbar-fixed-top sticky' role='navigation'>
+<a class="link" href="#bottom" id="hulk">Kelly Brofall ∙ Creative Strategist</a>
+<a class="link1" href="#" id="#1">#1</a>
+<a class="link2" href="#" id="#2">#2</a>
+<a class="link3" id="third">#3</a>
+<a class="link4" href="#" id="#4">#4</a>
+</nav>
 
 
-
+<!-- Slideshow nr 1-->
      <div> <!-- style="border:1px" solid #22402D;"-->
-        <div class="wrapper">
-            <div class="special2" align="center"><a href="#bottom" id="hulk"> Kelly Brofall ∙ Creative Concept & Brand manager/Strategist </div> </a>          
+        <div class="wrapper" id="project1">
+            <div class="special2" align="center"><a href="#bottom" id="hulk">  </div> </a>     
             <p>#1 - SOS barnbyar </p> 
-        </div>
+            </div>
                 <div id="ei-slider" class="ei-slider">
                     <ul class="ei-slider-large">
 						<li>
@@ -76,16 +102,12 @@ $("#hulk").click(function() {
                         <li>
                             <img src="images/large/9.svg" alt="image02" style="display:none;" />
                             <div class="ei-title">
-                                <h2>Result</h2>
-                                <h4 id="special">1 minute movie, presenting how the app works</h4>
                             </div>
                                 <div align="center">
                                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                         <iframe src="http://player.vimeo.com/video/72882417" width="560" height="315" class="video hidden-sm hidden-xs" frameborder="0"></iframe>  
 
                                         <iframe src="http://player.vimeo.com/video/72882417" width="200" height="113" class="video hidden-lg hidden-md" frameborder="0"></iframe>  
-                                        <div class="img-responsive">
-                                     </div>
                                  </div>
                              </div>
                         </li>
@@ -95,10 +117,10 @@ $("#hulk").click(function() {
                     </ul><!-- ei-slider-large -->
                     <ul class="ei-slider-thumbs">
                         <li class="ei-slider-element">Current</li>
-                         <li><a href="#">Slide 1</a><img src="images/thumbs/1.jpg" alt="thumb01" /></li>                  
-                         <li><a href="#">Slide 2</a><img src="images/thumbs/2.jpg" alt="thumb02" /></li>
-                         <li><a href="#">Slide 3</a><img src="images/thumbs/3.jpg" alt="thumb03" /></li>            
-                         <li><a href="#">Slide 4</a><img src="images/thumbs/4.jpg" alt="thumb04" /></li>
+                         <li><a href="#">Slide 1</a><img src="images/thumbs/1.png" alt="thumb01" /></li>                  
+                         <li><a href="#">Slide 2</a><img src="images/thumbs/2.png" alt="thumb02" /></li>
+                         <li><a href="#">Slide 3</a><img src="images/thumbs/3.png" alt="thumb03" /></li>            
+                         <li><a href="#">Slide 4</a><img src="images/thumbs/4.png" alt="thumb04" /></li>
 
                     </ul><!-- ei-slider-thumbs -->
                 </div><!-- ei-slider -->
@@ -114,14 +136,14 @@ $("#hulk").click(function() {
 <!-- Slideshow nr 2 -->
 
 <div style="border:1px"> <!--solid #22402D;"-->
-            <div class="wrapper">
+            <div class="wrapper" id="project2">
                 <p>#2 - Storytelling & Visulisation</p>
                 <div id="ei-slider2" class="ei-slider2">
                     <ul class="ei-slider-large">
                         <li>
                             <div class="img-responsive" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <img src="images/large/story3.svg" alt="image06" class="img hidden-sm hidden-xs"/>
-                            <img src="images/large/story3-4.svg" alt="image06" class="img hidden-lg hidden-md"/>
+                            <img src="images/large/storynew3.svg" alt="image06" class="img hidden-sm hidden-xs"/>
+                            <img src="images/large/storynew3_1.svg" alt="image06" class="img hidden-lg hidden-md"/>
                             <div class="ei-title">
                                 <h2>Client & Brief</h2>
                                 <h4 id="special">What the reader needs to know?</h4>
@@ -166,10 +188,10 @@ $("#hulk").click(function() {
                     </ul><!-- ei-slider-large -->
                     <ul class="ei-slider-thumbs">
                         <li class="ei-slider-element">Current</li>
-                         <li><a href="#">Slide 1</a><img src="images/thumbs/1.jpg" alt="thumb01" /></li>                  
-                         <li><a href="#">Slide 2</a><img src="images/thumbs/2.jpg" alt="thumb02" /></li>
-                         <li><a href="#">Slide 3</a><img src="images/thumbs/3.jpg" alt="thumb03" /></li>            
-                         <li><a href="#">Slide 4</a><img src="images/thumbs/4.jpg" alt="thumb04" /></li>
+                         <li><a href="#">Slide 1</a><img src="images/thumbs/1.png" alt="thumb01" /></li>                  
+                         <li><a href="#">Slide 2</a><img src="images/thumbs/2.png" alt="thumb02" /></li>
+                         <li><a href="#">Slide 3</a><img src="images/thumbs/3.png" alt="thumb03" /></li>            
+                         <li><a href="#">Slide 4</a><img src="images/thumbs/4.png" alt="thumb04" /></li>
 
                     </ul><!-- ei-slider-thumbs -->
                 </div><!-- ei-slider -->
@@ -192,44 +214,45 @@ $("#hulk").click(function() {
  <!-- Slideshow nr 3 -->
 
   <div style="border:1px"> <!--solid #22402D;"-->
-         <div class="wrapper">
-             <p>Project 3 - The Brick</p>
+         <div class="wrapper" id="project_third">
+             <p>Project 3 - Marketing DDS</p>
                 <div id="ei-slider3" class="ei-slider3">
                     <ul class="ei-slider-large">
                         <li>
                             <div class="img-responsive" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <img src="images/large/thebrick.svg" alt="image06" class="img hidden-sm hidden-xs"/>
-                            <img src="images/large/thebrick_1.svg" alt="image06" class="img hidden-lg hidden-md"/>
+                            <img src="images/large/marketing.svg" alt="image06" class="img hidden-sm hidden-xs"/>
+                            <img src="images/large/marketing_1.svg" alt="image06" class="img hidden-lg hidden-md"/>
                             <div class="ei-title">
                                 <h2>Client & Brief</h2>
-                                <h4 id="special">How can the building be given a unique identity?</h4>
-                                <h3>Alm Equity in collaboration with Björn Ulvaeus has taken on the project of transforming the old headquarter, and to create a unique living environment for the creative youth of Stockholm. How can the building be given a unique identity? How might we connect the physical and digital world through innovative solutions?</h3>
+                                <h4 id="special">How can we market our strenghts?</h4>
+                                <h3>This project was an initiative from me and two other classmates. We want to show other our hidden powers and make them believe that what we can do, can make a change.</h3>
                                 
                             </div>
                             </div>
                         </li>
                         <li>
                             <div class="img-responsive" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <img src="images/large/thebrick2.svg" alt="image06" class="img hidden-sm hidden-xs"/>
-                            <img src="images/large/thebrick2_1.svg" alt="image06" class="img hidden-lg hidden-md"/>
+                            <img src="images/large/marketing_2.svg" alt="image06" class="img hidden-sm hidden-xs"/>
+                            <img src="images/large/marketing2_1.svg" alt="image06" class="img hidden-lg hidden-md"/>
                             <div class="ei-title">
                                 <h2>We did</h2>
-                                 <h4 id="special">“A city within a city”</h4> <h3> A place for eco friendly and sustainable living, An app as the centre of digital communication, has the feeling of creative living and community feeling.</h3>
+                                 <h4 id="special">Awake curiosity</h4> 
+                                 <h3> Our initiative plan was to make a website, and at the very last minute, we changed ur minds. We wanted to give something simpler, and awake curosity. So the viewer can read more about the program afterwards, if they want to. </h3>
                             </div>
                         </li>
                         <li>
                             <div class="img-responsive" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <img src="images/large/thebrick3.svg" alt="image06" class="img hidden-sm hidden-xs"/>
-                            <img src="images/large/thebrick3_1.svg" alt="image06" class="img hidden-lg hidden-md"/>
+                            <img src="images/large/marketing_3.svg" alt="image06" class="img hidden-sm hidden-xs"/>
+                            <img src="images/large/marketing3_1.svg" alt="image06" class="img hidden-lg hidden-md"/>
                             <div class="ei-title">
                                 <h2>Process</h2>
-                                <h3>Working on a three days project restricts some work. Though, the result may be just as good as any. We had time to brainstorm, deep dive and write down why one should want to live the brick and what the badge stands for. And produce</h3><h4 id="special">a film that will pick up all of the core values ​</h4>​ <h3>that will capture feeling of Berlin. </h3>
+                                <h4 id="special">Clients and other school works goes first</h4> 
+                                <h3>It took us several months before we knew what to do and how. Since this was a side project, it has always been postponed, because clients and other school works goes first. </h3>
                             </div>
                         </li>
                         <li>
                             <img src="images/large/SOS.jpg" alt="image02" style="display:none;" />
                             <div class="ei-title">
-                                <h2>Result</h2>
                                 <!--h3>3 minutes and 40 seconds video with a love story of how these two people met at the brick. So we go in to the future and they both explain the good about living here. </h3-->
                             </div>
 
@@ -239,9 +262,10 @@ $("#hulk").click(function() {
   <!-- <source src="image/the_brick_15.webm" type="video/webm"> 
   Your browser does not support the video tag.
 </video> -->
-                                        <iframe src="http://player.vimeo.com/video/83847944" width="560" height="315" class="video hidden-sm hidden-xs" frameborder="0"></iframe>  
+                                        <iframe src="http://player.vimeo.com/video/92941975" width="560" height="315" class="video hidden-sm hidden-xs" frameborder="0"></iframe>  
 
-                                        <iframe src="http://player.vimeo.com/video/83847944" width="200" height="113" class="video hidden-lg hidden-md" frameborder="0"></iframe>  
+
+                                        <iframe src="http://player.vimeo.com/video/92941975" width="200" height="113" class="video hidden-lg hidden-md" frameborder="0"></iframe>  
                                         <div class="img-responsive"
                                           </div>
                                        </div>
@@ -254,10 +278,10 @@ $("#hulk").click(function() {
                     </ul><!-- ei-slider-large -->
                     <ul class="ei-slider-thumbs">
                         <li class="ei-slider-element">Current</li>
-                         <li><a href="#">Slide 1</a><img src="images/thumbs/1.jpg" alt="thumb01" /></li>                  
-                         <li><a href="#">Slide 2</a><img src="images/thumbs/2.jpg" alt="thumb02" /></li>
-                         <li><a href="#">Slide 3</a><img src="images/thumbs/3.jpg" alt="thumb03" /></li>            
-                         <li><a href="#">Slide 4</a><img src="images/thumbs/4.jpg" alt="thumb04" /></li>
+                         <li><a href="#">Slide 1</a><img src="images/thumbs/1.png" alt="thumb01" /></li>                  
+                         <li><a href="#">Slide 2</a><img src="images/thumbs/2.png" alt="thumb02" /></li>
+                         <li><a href="#">Slide 3</a><img src="images/thumbs/3.png" alt="thumb03" /></li>            
+                         <li><a href="#">Slide 4</a><img src="images/thumbs/4.png" alt="thumb04" /></li>
 
                     </ul><!-- ei-slider-thumbs -->
                 </div><!-- ei-slider -->
@@ -272,13 +296,14 @@ $("#hulk").click(function() {
  <!-- Slideshow nr 4 -->
 
   <div style="border:1px"> <!--solid #22402D;"-->
-            <div class="wrapper">
+            <div class="wrapper" id="project4">
                 <p>Project 4 - Halebop</p>
                 <div id="ei-slider4" class="ei-slider4">
                     <ul class="ei-slider-large">
                         <li>
-                            <div class="img-responsive">
-                            <img src="images/large/halebop.svg" alt="image06"/>
+                            <div class="img-responsive" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <img src="images/large/halebop.svg" alt="image06" class="img hidden-sm hidden-xs"/>
+                            <img src="images/large/halebop1_1.svg" alt="image06" class="img hidden-lg hidden-md"/>
                             <div class="ei-title">
                                 <h2>Client & Brief</h2>
                                 <h4 id="special">Measuring the right numbers?</h4>
@@ -304,7 +329,7 @@ $("#hulk").click(function() {
                             <div class="ei-title">
                                 <h2>Process</h2>
                                  <h4 id="special">Insights about growth</h4>
-                                <h3>Investing their GA settings and numbers has taken most of the time, and the last three weeks we worked very much with all different processes because of the insights we got about growth from air bnb, during a lecture.</h3>
+                                <h3>Investing their GA settings and numbers has taken most of the time, and the last three weeks we worked very much with all different processes because of the insights we got about growth from air bnb, during a lecture. </h3>
                             </div>
                         </li>
                         <li>
@@ -331,10 +356,10 @@ $("#hulk").click(function() {
                     </ul><!-- ei-slider-large -->
                     <ul class="ei-slider-thumbs">
                         <li class="ei-slider-element">Current</li>
-                         <li><a href="#">Slide 1</a><img src="images/thumbs/1.jpg" alt="thumb01" /></li>                  
-                         <li><a href="#">Slide 2</a><img src="images/thumbs/2.jpg" alt="thumb02" /></li>
-                         <li><a href="#">Slide 3</a><img src="images/thumbs/3.jpg" alt="thumb03" /></li>            
-                         <li><a href="#">Slide 4</a><img src="images/thumbs/4.jpg" alt="thumb04" /></li>
+                         <li><a href="#">Slide 1</a><img src="images/thumbs/1.png" alt="thumb01" /></li>                  
+                         <li><a href="#">Slide 2</a><img src="images/thumbs/2.png" alt="thumb02" /></li>
+                         <li><a href="#">Slide 3</a><img src="images/thumbs/3.png" alt="thumb03" /></li>            
+                         <li><a href="#">Slide 4</a><img src="images/thumbs/4.png" alt="thumb04" /></li>
 
                     </ul><!-- ei-slider-thumbs -->
                 </div><!-- ei-slider -->
@@ -347,32 +372,52 @@ $("#hulk").click(function() {
 <br>
 <br>
 
+
 <div class="wrapper" id="bottom">
     <p>About me</p>
-    <div class="img-responsive">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <img src="images/large/pro.svg" alt="image01"/>
-        <div>
+</div>
+
+ <div class="Column" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+ <img src="images/large/aboutme1.svg"/>
+
+<div class="aboutme"></div>
+    <h3>Degree in packaging design, worked as a product designer, artwork coordinator, photographer/retusch and responsible for various website with a mix of both content, images and looks. <br>
+    <br>
+    Have my own illustrator company, since 2012. <br>
+    <br>
+    Digital Data Strategist degree in November 2014 at Hyper Island, in Stockholm. This education has given me real clients, real missions and real deadlines.
+    I have learned how to work and use Data, programing and how to work so efficient as possible in teams. With these tools I have unique combination of competences to create and learn other how and what you can do with Data. <br>
+    <br>
+    I see myself as a stretegist in a creative way. I love working with concept development, brand identity, as much as I am  curious to new technics and digital solutions. 
+    And with my design background, I see myself very strong in several fields.<br>
+    <br></h3>
     </div>
+
+
+
+<div class="img-responsive" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" align="center">
+        <img src="images/large/projects.svg" alt="image06"/>
 </div>
 
 
-<div align="center">
-<a href="http://se.linkedin.com/pub/kelly-brofall/4b/73/69" target="_blank"><img src="images/in.png"></a></a>
-<a href="https://www.facebook.com/KellyBrofall" target="_blank"><img src="images/f.png"></a></a>
-<a href="images/KellyBrofall_CV_ex3.pdf" target="_blank"><img src="images/cv.png"></a></a>
-</div>
 
 
 
 
 
-        </div>
+
+
+
+
+
         <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
         <script type="text/javascript" src="js/jquery.eislideshow.js"></script>
         <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
         <script type="text/javascript">
+
+    
            
 
             $(function() {

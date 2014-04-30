@@ -24,11 +24,11 @@ a:hover{
 
 .wrapper p{
 	clear: both;
-	font-size: 15px;
+	font-size: 20px;
 	font-style: bold;
 	text-align: center;
 	height: 0px;
-	line-height: 30px;
+	line-height: 35px;
 }
 .reference{
 	padding-top: 40px;
@@ -89,4 +89,12 @@ h1 span{
 	.header span.right{
 		float: none;
 	}
+
+	.wrapper p{
+	clear: both;
+	font-size: 15px;
+	font-style: bold;
+	text-align: center;
+	height: 0px;
+	line-height: 35px;
 }

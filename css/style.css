@@ -1,5 +1,57 @@
 
 
+
+#menubar {
+	background-color: #C9E6E6;
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Marvel', sans-serif;
+	border: 0px solid;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+
+}
+
+
+#menubar a:hover {
+    color: #F90;
+	text-decoration: none
+
+}
+
+#menubar a {
+	color: black;	
+}
+
+
+.link {
+	 margin-left: 5%;
+	 margin-right:5%;
+}
+
+.link1 {
+	 margin-left: 2%;
+	 margin-right: 2%;
+}
+
+.link2 {
+	 margin-left: 2%;
+	 margin-right: 2%;
+}
+
+.link3 {
+	 margin-left: 2%;
+	 margin-right: 2%;
+}
+
+.link4 {
+	 margin-left: 2%;
+	 margin-right: 2%;
+}
+
+
+
 .ei-slider{
 	position: relative;
 	width: 100%;
@@ -8,8 +60,26 @@
 	margin: 0 auto;
 }
 
+
+.sr-only {
+	text-align: left;
+	margin-left: 30%;
+	margin-bottom: 30%;
+}
+
+
+.one {
+	border-style:solid;
+	border-color: black;
+	background-color: black;
+	color: white;
+	border-width:5px;
+	width: 50%;
+	margin-left: 5%;
+}
+
 p {
-	font-size: 50px;
+	font-size: 100px;
 	color: black;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-style: bold;
@@ -153,7 +223,7 @@ p {
 .ei-title{
 	position: absolute;
 	width: 30%;
-	margin-left: 10%;
+	margin-left: 13%;
 	top: 30%;
 }
 .ei-title h2, .ei-title h3{
@@ -231,7 +301,6 @@ p {
 	position: absolute;
 	top: -60px;
 	bottom: 50px;
-	opacity: 0;
 	z-index: 999;
 	max-width: 100%;
 	-webkit-transition: all 0.4s ease;
@@ -256,8 +325,50 @@ p {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
+.progress{
+	width: 50%;
+	margin-left: 5%;
+}
+
+.progresshead{
+	margin-top: 50px;
+}
+
+
+#special {
+	opacity: 1 !important;
+}
+
 .video {
-	margin-top: 15%;
+	margin-top: 10%;
+}
+
+
+
+
+.Column
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left:5%;
+    margin-right:5%: 
+
+}
+
+.aboutme {
+	margin-left:5%;
+    margin-right: 50px;
+}
+
+.Column h3 {
+    font-size: 15px;
+	font-family: 'Marvel', sans-serif;
+	margin-top: 0px;
+
+}	
+
+.img-responsive {
+	margin-top: -20px;
 }
 
 .img {
@@ -268,7 +379,6 @@ p {
 
 
 }
-
 
 @media screen and (max-width: 830px) {
 	.ei-title{
@@ -283,17 +393,96 @@ p {
 		background: rgba(255,255,255,0.9);
 		padding: 5px 0;
 	}
+
+	.video{
+		margin-top: 20%
+
+	}
+
 	.ei-title h2, .ei-title h3{
 		text-align: center;
 	}
 	.ei-title h2{
-		font-size: 40px;
-		line-height: 24px;
+		font-size: 35px;
+		line-height: 20px;
 	}
+
+
 	.ei-title h3{
-		font-size: 18px;
-		line-height: 30px;
+		font-size: 15px;
+		line-height: 25px;
+		margin-bottom: 10%;
 	}
+
+		.link {
+		 margin-left: 0%;
+		 margin-right:0%;
+	}
+	
+		.link1 {
+		 margin-left: 0%;
+		 margin-right: 0%;
+	}
+	
+		.link2 {
+		 margin-left: 0%;
+		 margin-right: 0%;
+	}
+	
+		.link3 {
+		 margin-left: 0%;
+		 margin-right: 0%;
+	}
+	
+		.link4 {
+		 margin-left: 0%;
+		 margin-right: 0%;
+	}
+
+	.special2 {
+		font-family: 'Marvel', sans-serif;
+		color: black; text-decoration: none;
+		background-color: #C9E6E6;
+		padding-top:30px;
+		padding-bottom:10px;
+		padding-right:50px;
+		padding-left:50px;
+	
+	}
+
+	p {
+		font-size: 100px;
+		color: black;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-style: bold;
+	
+		height: 0px;
+		line-height: 40px;
+		padding: 0px;
+    	display: block;
+    	 
+    	border-right: 100px solid white;
+    	border-left: 100px solid white;
+    	border-top: 45px solid #C9E6E6; 
+
+	}
+
+	#menubar {
+		background-color: #C9E6E6;
+		font-size: 20px;
+		text-align: center;
+		font-family: 'Marvel', sans-serif;
+		border: 0px solid;
+		padding-top: 15px;
+		padding-bottom: 15px;
+
+
+}
+
+
+
+}
+
 
 
 }
