@@ -351,7 +351,6 @@ p {
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left:5%;
-    margin-right:5%: 
 
 }
 
@@ -361,11 +360,11 @@ p {
 }
 
 .Column h3 {
-    font-size: 15px;
+    font-size: 18px;
 	font-family: 'Marvel', sans-serif;
 	margin-top: 0px;
-
-}	
+	width: 90%;
+}
 
 .img-responsive {
 	margin-top: -20px;
@@ -475,14 +474,22 @@ p {
 		border: 0px solid;
 		padding-top: 15px;
 		padding-bottom: 15px;
+	}
+
+	.Column {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left:5%;
+
+	}
+
+	.aboutme {
+	margin-left:5%;
+    margin-right: 0px;
+	
+	}
 
 
 }
-
-
-
-}
-
-
 
 }
