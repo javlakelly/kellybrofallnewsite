@@ -1,7 +1,119 @@
+@import url('reset.css');
+
+/* General Demo Style */
+body{
+	/*background: #fff; 
+	/*color: #000;
+	/*font-family: 'Open Sans Condensed', sans-serif;
+	/*font-size: 13px;*/
+}
+a{
+	color: #555;
+	text-decoration: none;
+}
+a:hover{
+	color: #000;
+}
+.clr{
+	clear: both;
+}
+.wrapper{
+	position: relative;
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+.wrapper p{
+	clear: both;
+	font-size: 20px;
+	font-style: bold;
+	text-align: center;
+	height: 0px;
+	line-height: 35px;
+}
+.reference{
+	padding-top: 40px;
+}
+h1{
+	font-size: 34px;
+	position:relative;
+	color: #000;
+	font-weight: 400;
+	text-shadow: 0px 0px 1px rgba(0,0,0,0.3);
+    padding: 20px;
+	z-index:1000;
+	text-transform: uppercase;
+	text-align: center;
+}
+h1 span{
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	text-transform: none;
+	font-size: 20px;
+}
+/* Header Style */
+.header{
+	font-family:"Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+	font-size: 10px;
+	padding: 3px 5px;
+	background: #000;
+	opacity: 0.9;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+	-moz-box-shadow: 0px 1px 4px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.6);
+	box-shadow: 0px 1px 4px rgba(0,0,0,0.6);
+}
+.header a{
+	line-height: 18px;
+	padding: 0 4px;
+	letter-spacing: 1px;
+	text-shadow: 1px 1px 1px #000;
+	color: #ddd;
+}
+.header a:hover{
+	color: #fff;
+}
+.header a span{
+	font-weight: bold;
+}
+.header span.right{
+	float: right;
+}
+@media screen and (max-width: 860px) {
+	.header a{
+		display: block;
+		text-align: center;
+		font-size: 10px;
+		text-shadow: none;
+	}
+	.header span.right{
+		float: none;
+	}
+
+	.wrapper p{
+	clear: both;
+	font-size: 15px;
+	font-style: bold;
+	text-align: center;
+	height: 0px;
+	line-height: 35px;
+
+	}	
+
+	.wrapper h2{
+		padding-top: 10%;
+
+	}
 
 
 
-#menubar {
+
+}
+
+
+
+.menubar {
 	background-color: #C9E6E6;
 	font-size: 25px;
 	text-align: center;
@@ -14,13 +126,13 @@
 }
 
 
-#menubar a:hover {
+.menubar a:hover {
     color: #F90;
 	text-decoration: none
 
 }
 
-#menubar a {
+.menubar a {
 	color: black;	
 }
 
@@ -48,16 +160,6 @@
 .link4 {
 	 margin-left: 2%;
 	 margin-right: 2%;
-}
-
-
-
-.ei-slider{
-	position: relative;
-	width: 100%;
-	max-width: 1920px;
-	height: 530px;
-	margin: 0 auto;
 }
 
 
@@ -93,7 +195,19 @@ p {
     border-left: 150px solid white;
     border-top: 45px solid #C9E6E6; 
 
+} 
+
+
+footer {
+	font-size: 10px;
+	font-family: 'Marvel', sans-serif;
+	margin-top:-3%;
+	padding-bottom: 1%;
+	background-color:#C9E6E6;
+	text-align:center;
+
 }
+
 
 
 
@@ -107,6 +221,14 @@ p {
 	padding-right:50px;
 	padding-left:50px;
 
+}
+
+.ei-slider{
+	position: relative;
+	width: 100%;
+	max-width: 1920px;
+	height: 530px;
+	margin: 0 auto;
 }
 
 
@@ -261,6 +383,7 @@ p {
 	position: relative;
 	float: left;
 	height: 100%;
+	cursor:pointer
 }
 .ei-slider-thumbs li.ei-slider-element{
 	top: 0px;
@@ -299,25 +422,11 @@ p {
 }
 .ei-slider-thumbs li img{
 	position: absolute;
-	top: -60px;
+	top: -40px;
 	bottom: 50px;
 	z-index: 999;
 	max-width: 100%;
-	-webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
-    -ms-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-	-webkit-box-reflect: 
-        below 0px -webkit-gradient(
-            linear, 
-            left top, 
-            left bottom, 
-            from(transparent), 
-            color-stop(50%, transparent), 
-            to(rgba(255,255,255,0.3))
-            );
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
 }
 .ei-slider-thumbs li:hover img{
 	opacity: 1;
@@ -335,36 +444,69 @@ p {
 }
 
 
-#special {
+.special {
 	opacity: 1 !important;
 }
 
+.row h3 {
+	font-size: 15px;
+	line-height: 20px;
+	font-family: 'Marvel', sans-serif;
+}
+
+.row h2 {
+	font-size: 15px;
+	line-height: 20px;
+	font-family: 'Marvel', sans-serif;
+}
+
+
 .video {
-	margin-top: 10%;
+	margin-top: 6%;
 }
 
 
-
-
-.Column
-{
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left:5%;
+.Column {
+	text-align: justify;
 
 }
 
-.aboutme {
-	margin-left:5%;
-    margin-right: 50px;
-}
 
 .Column h3 {
-    font-size: 18px;
+    font-size: 15px;
 	font-family: 'Marvel', sans-serif;
-	margin-top: 0px;
-	width: 90%;
+	width: 100%;
+
 }
+
+.row h2 {
+    font-size: 17px;
+	font-family: 'Roboto Slab', serif;
+	width: 100%;
+	text-align: justify;
+}
+
+.row h4 {
+	font-size: 20px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+
+}
+
+.row a {
+	color: black;	
+	text-decoration: none
+}
+
+h5 {
+	font-size: 15px;
+	font-family: 'Marvel', sans-serif;
+	width: 100%;
+
+}
+
+
+
 
 .img-responsive {
 	margin-top: -20px;
@@ -403,7 +545,8 @@ p {
 	}
 	.ei-title h2{
 		font-size: 35px;
-		line-height: 20px;
+		line-height: 10px;
+		margin-bottom: 30px;
 	}
 
 
@@ -411,6 +554,12 @@ p {
 		font-size: 15px;
 		line-height: 25px;
 		margin-bottom: 10%;
+	}
+
+	.ei-title h4{
+		font-size: 15px;
+		line-height: 25px;
+
 	}
 
 		.link {
@@ -437,6 +586,40 @@ p {
 		 margin-left: 0%;
 		 margin-right: 0%;
 	}
+
+
+	.ei-slider{
+		position: relative;
+		width: 100%;
+		max-width: 1920px;
+		height: 350px;
+		margin: 0 auto;
+	}
+
+	.ei-slider2{
+		position: relative;
+		width: 100%;
+		max-width: 1920px;
+		height: 350px;
+		margin: 0 auto;
+	}
+
+	.ei-slider3{
+		position: relative;
+		width: 100%;
+		max-width: 1920px;
+		height: 350px;
+		margin: 0 auto;
+	}
+
+	.ei-slider4{
+		position: relative;
+		width: 100%;
+		max-width: 1920px;
+		height: 350px;
+		margin: 0 auto;
+	}
+
 
 	.special2 {
 		font-family: 'Marvel', sans-serif;
@@ -466,7 +649,7 @@ p {
 
 	}
 
-	#menubar {
+	.menubar {
 		background-color: #C9E6E6;
 		font-size: 20px;
 		text-align: center;
@@ -476,11 +659,18 @@ p {
 		padding-bottom: 15px;
 	}
 
+
 	.Column {
     	margin-top: 5%;
     	margin-bottom: 5%;
     	margin-left:5%;
+    	margin-right: 5%;
 
+	}
+
+	.quote {
+		margin-left:5%;
+    	margin-right: 5%;
 	}
 
 	.aboutme {
@@ -490,10 +680,16 @@ p {
 	}
 
 	#special {
-	opacity: 1 !important;
-}
+		opacity: 1 !important;
+	}
 
 
 }
 
+
+div.video-container {
+	text-align: center;
+}
+iframe.hidden-sm.hidden-xs {
+	display: inline-block !important;
 }

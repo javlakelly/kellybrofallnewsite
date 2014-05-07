@@ -304,7 +304,7 @@
 			$.when(
 				
 				// fade out current titles
-				$currentSlide.css( 'z-index' , 1 ).find('div.ei-title > *').stop().fadeOut( this.options.speed / 4, function() {
+				$currentSlide.css( 'z-index' , 1 ).stop().fadeOut( this.options.speed / 4, function() {
 					// reset style
 					$(this).show().css( 'opacity', 0 );	
 				}),
